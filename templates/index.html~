@@ -26,15 +26,16 @@
 		</div>
 	</div>
 	<div class="container main">
-<!--		<div class="offset span2">
-			<ul id="tweets" class="nav nav-list search-query">
+		<!-- History Start
+		<div id="forhistory">
+			<ul class="search-history"/>
+		</div>
+		 History End -->	
+		<div class="offset span2">
+			<ul id="tweets" class="nav nav-list search-history search-historya">
 				<li class="nav-header">History</li>
-				<li><a href="#">Manila</li>
-            			<li><a href="#">Link</a></li>
-       			        <li><a href="#">Link</a></li>
-          			<li><a href="#">Link</a></li>
         		</ul>
-		</div> -->
+		</div>
 		<div class="row">
 			<div class="offset1 span8">
 				<h4 class="title"></h4>
@@ -98,6 +99,6 @@
 	   </li> 
     </script>
 
-	<script src="app.js" type="text/javascript"></script>
+	<script src="../static/app.js" type="text/javascript"></script>
 </body>
 </html>

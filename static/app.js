@@ -121,6 +121,16 @@ $(function(){
 			this.tweets.reset();
 			this.$('.tweets-result li').remove();
 			this.loadTweets();
+			//pass search-query content to class search-history (index)
+			this.$('.search-historya').append($('<a>', {
+				href: 'http://search.twitter.com/search.json?q=' + this.$('.search-query').val() + '&page=1' + '&callback=?',
+				text: this.$('.search-query').val(),
+			}))
+			//pass search-query content to class search-history (index) list
+			this.$('.search-history').append($('<li>', {
+				id: this.$('.search-query').val()
+			// 
+			}))
 			return false;
 		},
 
