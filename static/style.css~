@@ -1,8 +1,14 @@
-.container.main {
-	position: relative;
-	color: red;
-	top: 70px;
+@import url('reset.css');
 
+container.main {
+	position: relative;
+	top: 70px;
+	height: 500px;
+
+}
+.container.main .span8{
+	height: 500px;
+	overflow-y: auto;
 }
 
 #results { padding:35px 0; padding-bottom:250px; }

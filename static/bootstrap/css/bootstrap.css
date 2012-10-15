@@ -4574,11 +4574,10 @@ input[type="submit"].btn.btn-mini {
   border-color: #252525;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
-/* Twitter Search App main*/
+
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
   color: #999999;
-  padding-left:120px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
