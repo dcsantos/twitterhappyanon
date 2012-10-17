@@ -41,16 +41,16 @@ $(function(){
 		views: {}
 	};
 
-	// Search Module
+	// Search Module facebook and twitter
 	//------------------
 	app.models.SearchModel = Backbone.Model.extend({
 		initialize: function() {
 			var type = '';
-			if (this.get('isFB') === true) {
-				type = type + ' f ';
+			if (this.get('isFB') == true) {
+				type = type + ' @fb ';
 			}
-			if (this.get('isTwitter') === true) {
-				type = type + ' t ';
+			if (this.get('isTwitter') == true) {
+				type = type + ' @twitter ';
 			}
 			this.set('type', type);
 		}
